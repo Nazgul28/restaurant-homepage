@@ -1,0 +1,185 @@
+<!-- PROJECT 2 - LUIS MASSOLA -->
+
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+ 	<title> Restaurant Webpage Project 2 </title>
+ 	<link rel="stylesheet" href="reset.css">
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ 	<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
+ 	<link href="js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+			<div class="navigation">
+						<a href="#about"> ABOUT </a>
+						<a href="#menu"> MENU </a>
+						<a href="#reservations"> RESERVATIONS </a>
+						<a href="#contact"> CONTACT </a>
+			</div>
+			<div class= "container0">
+			<div class="logo1">
+				<img src="images/100-mile-logo-long.svg">
+			</div>
+			<div class="text1">
+				<p>Grown here.</p></br>
+				<p>Made here.</p></br>
+				<p>Eaten here.</p></br>
+			</div>
+			<div class="button1">
+				<button id="button" style="color:#e7e3c5"> SEE OUR MENU > </button>
+			</div>
+			<div class="hello">
+			         	<p>It's <span id="day"></span>,</p>
+			         	<p class="uppercase">WE'RE <span id="status"></span>!</p>
+			</div>
+		</div>
+	</header>
+
+	<section1>
+		<a name="about"></a>
+			<div class="localflavours">
+				<h1> LOCAL FLAVOURS </h1>
+			</div>
+			<div class="text2">
+				<p> Our menu is fresh, delicious, and locally sourced. We fuse flavour, seasonal and local ingredients with inspiration from our local neighbourhood.<p> </br>
+				<p> Gastropub Truffaut salvia mumblecore kitsch, sartorial meggings bitters tofu. </p>
+				<p> Gluten-free shabby-chic leggings viral, Schiltz Banksy mixtape notmcore four loko. </p>
+			</div>
+	</section1>
+	<section2>
+			<ul class="bxslider">
+				<li><img src="slider_images/bread-stone.jpg"/></li>
+  				<li><img src="slider_images/dish.jpg"/></li>
+  				<li><img src="slider_images/herbs.jpg"/></li>
+  				<li><img src="slider_images/juice.jpg"/></li>
+  				<li><img src="slider_images/knives-forks.jpg"/></li>
+  				<li><imd src="slider_images/sweet-cakes.jpg"/></li>
+			</ul>
+	</section2>
+
+	<section3>
+		<a name="menu"></a>
+			<div class= "container">
+				<h1> FOOD &amp; DRINK </h1>
+				<div class="Forks">
+					<h2> Forks </h2>
+					<ul>
+						<li>Foraged Fried Green Tomato - $10</li>
+						<li> Braised Blackberry Poutine - $12 </li>
+						<li> Pickled Kale Salad - $15 </li>
+						<li> Gnocchi on a Rock - $23 </li>
+					</ul>
+				</div>
+				<div class="Knives">
+					<h2> Knives </h2>
+					<ul>
+						<li> Truffled Bacon - $10 </li>
+						<li> Pickled Deer with Saffron - $12 </li>
+						<li> Braised Boar Waffles - $15 </li>
+						<li> Organic Salted Pasta - $16 </li>
+						<li> Free Range Pork Belly - $23 </li>
+					</ul>
+				</div>
+				<div class="Glasses">
+					<h2> Glasses </h2>
+					<ul>
+						<li> Artisanal Water - $4 </li>
+						<li> Hand-Pressed Fruit-Juice - $5 </li>
+						<li> Craft Beer - $5 glass / $7 pint </li>
+						<li> Organic House Red or White - $10 </li>
+					</ul>
+				</div>
+			</div>
+	</section3>
+
+	<section4>
+		<a name="reservations"></a>
+		<div class="Table">
+				<div class= "tabletitle">
+					<h1> BOOK A TABLE </h1>
+				</div>
+				<div class="text3">
+					<p> If you would like to book a table at 100 Mile Resto Bar for up to 8 people, please use our booking form below. We will send you confirmation as soon as we can.</p>
+				</div>
+				<div class="Form">
+					<ul class="clearfix">
+						<li>
+							<label for="date">WHICH DATE?</label>
+				 			<input type="date" name="date" value="date"/>
+				 		</li>
+				 		<li>
+				 			<label for="time">WHAT TIME?</label>
+				 			<input type="time" name="time"/>
+				 		</li>
+				 		<li>
+				 			<label for="peolpe">NO. OF PEOPLE?</label>
+				 			<input type="number" name="number" value="number"/>
+				 		</li>
+				 		<li>
+				 			<label for="name">YOUR NAME </label>
+				 			<input type="text" name="name" value="text"/>
+				 		<li>
+				 			<label for="phone">PHONE</lable>
+				 			<input type="tel" name="phone" value="tel"/>
+				 		</li>
+				 		<li> 
+				 			<label for="phone">EMAIL</lable>
+				 			<input type="email" name="email" value="email"/>
+				 		</li>
+				 	</ul>
+				</div>
+				<div class="button2">
+					<button id="button" style="color:#e7e3c5"> BOOK NOW ></button>
+				</div>
+		</div>
+	</section4>
+
+	<section5>
+		<a name="contact"></a>
+		<div class="wrapper0">
+			<div class="Find">
+				<h1> FIND US </h1>
+			</div>
+			<div class="location">
+				<i class="fa fa-map-marker fa-2x"></i>
+				<p> 1490 W Broadway,</p>
+				<p>  Vancouver BC </p>
+			</div>
+			<div class="phone">
+				<i class="fa fa-phone fa-2x"></i>
+				<p> 604-604-6040 </p>
+			</div>
+			<div class="email">
+				<i class="fa fa-envelope-o fa-2x"></i></br>
+				<a#href=​"mailto:​info@hundredmilerestobar.com">​ info@hundredmilerestobar.com ​</a>​
+			</div>
+		</div>
+	</section5>
+
+	<footer>
+		<div class="wrapper">
+			<div class="logofinal">
+				<img src="images/100-mile-logo-stacked.svg">
+			</div>
+			<div class="follow">
+				<p> Follow us on: </p>
+			</div>
+			<div class="icons">
+				<i class="fa fa-facebook-official"></i>
+				<i class="fa fa-twitter-square"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+			<div class="copyright">
+				<p> &copy;100 Mile Resto Bar 2015</p>
+			</div>
+		</div>	
+	</footer>​
+	
+	<script src="js/scripts.js"></script>
+</body>
+</html>
