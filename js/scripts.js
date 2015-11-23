@@ -31,13 +31,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 var date = new Date().getDay();
 var weekdays = [
-{day:"Sunday", status: "CLOSED"},
-{day:"Monday", status: "OPEN"},
-{day:"Tuesday", status:"OPEN"},
-{day:"Wednesday", status: "OPEN"},
-{day:"Thursday", status: "OPEN"},
-{day:"Friday", status: "OPEN"},
-{day:"Saturday", status: "CLOSED"},
+{day:"It's Sunday,", status: "Sorry! We're CLOSED!"},
+{day:"It's Monday,", status: "We're OPEN!"},
+{day:"It's Tuesday,", status:"We're OPEN!"},
+{day:"It's Wednesday,", status: "We're OPEN!"},
+{day:"It's Thursday,", status: "We're OPEN!"},
+{day:"It's Friday,", status: "We're OPEN!"},
+{day:"It's Saturday,", status: "Sorry! We're CLOSED!"},
 ];
 var status = weekdays[date+0].status;
 var day = weekdays[date+0].day;
