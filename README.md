@@ -1,4 +1,5 @@
-# Restaurant-homepage: RED Academy - Project2
+# Restaurant-homepage: responsive website.
+ Project 2 - Red Academy.
 
 It was my 2nd assignment at RED Academy (Web Development course).
 
