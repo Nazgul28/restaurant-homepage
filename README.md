@@ -3,7 +3,7 @@
 
 It was my 2nd assignment at RED Academy (Web Development course).
 
-It was an intersting project because I could practice more HTML5, CSS3 and I've also coded for the first time some JavaScript.
+It was an interesting project because I could practice more HTML5, CSS3 and I've also coded for the first time some JavaScript.
 
 I've used media queries to make the website responsive for mobile, tablet and desktop screen sizes.
 
